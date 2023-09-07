@@ -1,7 +1,4 @@
-# improved-octo-succotash
-
-Hey! Cool story bruv!
-# Travel App
+# Travel Buddy
 
 ## User Story
 AS a traveler, I WANT a quick and easy to read country guide SO that I can learn about the country I am going to next while backpacking.
