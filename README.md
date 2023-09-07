@@ -3,10 +3,10 @@
 Hey! Cool story bruv!
 # Travel App
 
-
+## User Story
+AS a traveler, I WANT a quick and easy to read country guide SO that I can learn about the country I am going to next while backpacking.
 
 ## Project Requirements
-
 
 
 * Use Node.js and Express.js to create a RESTful API.
