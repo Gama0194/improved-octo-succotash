@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+# improved-octo-succotash
+
+Hey! Cool story bruv!
+=======
 # Travel App
 
 
@@ -69,3 +74,4 @@ Ricardo Esparza
 
 ## Deployed Application
 Heroku Link:
+>>>>>>> main
