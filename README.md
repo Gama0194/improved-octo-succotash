@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 # improved-octo-succotash
 
 Hey! Cool story bruv!
-=======
 # Travel App
 
-
+## User Story
+As a Traveler 
 
 ## Project Requirements
 
@@ -74,4 +73,3 @@ Ricardo Esparza
 
 ## Deployed Application
 Heroku Link:
->>>>>>> main
