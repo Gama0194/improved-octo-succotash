@@ -1,5 +1,6 @@
+/* Styling for the header */
+
 .dropbtn {
-    /* background-color: #f1f1f1; */
     color: #33C3F0;
     padding: 16px;
     font-size: 16px;
@@ -7,7 +8,7 @@
     cursor: pointer;
   }
   
-  .dropdown {
+  .main-header {
     position: relative;
     display: inline-block;
   }
@@ -32,3 +33,30 @@
   .dropdown-content a:hover {background-color: #f1f1f1;}
   .dropdown:hover .dropdown-content {display: block;}
   .dropdown:hover .dropbtn {background-color: #fff;}
+
+
+  /* Styling for the footer */
+
+.main-footer {
+    padding: 5px 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 5px;
+}
+
+.footer-name {
+    font-weight: normal;
+    font-size: 35px;
+    margin-left: 200px;
+}
