@@ -1,16 +1,14 @@
 const express = require('express');
-const routes = require('./routes/index');
-const sequelize = require('./config/connection');
-
 const app = express();
 const PORT = process.env.PORT || 3001;
-
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
 
-app.use(routes);
+const locationRoutes = require('./routes/locationRoutes');
+app.use('/locations', locationRoutes);
 
+//const userRoutes = require('./routes/userRoutes');
+//app.use('/users', userRoutes);
 
-sequelize.sync({ force: false}).then(() => {
-    app.listen(PORT, () => console.log('Now Listening'));
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
 });
