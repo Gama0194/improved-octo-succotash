@@ -57,30 +57,30 @@ const countrydata = [
   },
   {
     country: 'Lebanon',
-    capital: '',
-    currency: '',
+    capital: 'Beirut',
+    currency: 'Lebanese Pound',
     country_id: 7,
-    flag: '',
+    language: 'Arabic, French',
     description:
-      '',
+      'Lebanon offers plenty: from ancient Roman ruins, to well-preserved castles, limestone caves, historic Churches and Mosques, beautiful beaches nestled in the Mediterranean Sea, world-renowned Lebanese cuisine, nonstop nightlife and discothèques, to mountainous ski resorts.',
   },
   {
     country: 'Malta',
-    capital: '',
-    currency: '',
+    capital: 'Valletta',
+    currency: 'Euro',
     country_id: 8,
-    flag: '',
+    language: 'Maltese',
     description:
-      '',
+      'Most people associate Malta with its beaches, but even the architecture is unique and ancient. Empires have come and reigned over Malta, and they have left their glimpses behind. This is why you will find intricate and impressive architecture throughout the country.',
   },
   {
     country: 'Brazil',
-    capital: '',
-    currency: '',
+    capital: 'Brasilia',
+    currency: 'Real',
     country_id: 9,
-    flag: '',
+    language: 'Portuguese',
     description:
-      '',
+      'Famous for its rainforests, beaches, and lively city life in Rio De Janeiro and Brasilia, Brazilian society includes people of indigenous, Portuguese, European, and African ancestries.',
   },
 ];
 
