@@ -19,6 +19,10 @@ app.use('/locations', locationRoutes);
 const userRoutes = require('./routes/userRoutes');
 app.use('/users', userRoutes);
 
+app.get('/', (req, res) => {
+    res.render('layouts/main', { title: 'My App', name: 'Travel Buddy' });
+});
+
 app.listen(PORT, () => {
     console.log(`Server is running on: http://localhost:${PORT}`);
 });
