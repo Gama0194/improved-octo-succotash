@@ -24,7 +24,7 @@ const countrydata = [
     capital: 'Mexico City',
     currency: 'Peso',
     country_id: 3,
-    flag: '',
+    language: '',
     description:
       'Mexico is Latin Americas most visited tourist destination.',
   },
