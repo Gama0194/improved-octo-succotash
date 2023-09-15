@@ -46,11 +46,11 @@ app.use(routes);
 
 
 // Maybe the content below doesn't belong here
-const locationRoutes = require('./routes/locationRoutes');
-app.use('/locations', locationRoutes);
+// const locationRoutes = require('./routes/locationRoutes');
+// app.use('/locations', locationRoutes);
 
-const userRoutes = require('./routes/userRoutes');
-app.use('/users', userRoutes);
+// const userRoutes = require('./routes/userRoutes');
+// app.use('/users', userRoutes);
 
 app.get('/', (req, res) => {
     res.render('layouts/main', { title: 'My App', name: 'Travel Buddy' });
