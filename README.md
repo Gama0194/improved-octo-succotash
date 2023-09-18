@@ -64,6 +64,7 @@ AS a traveler, I WANT a quick and easy to read country guide SO that I can learn
 
 Gerardo Perez
 -Github: https://github.com/Gera1313
+
 Ricardo Esparza 
 -Github: https://github.com/Gama0194
 
